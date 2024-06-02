@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Serialize">
+      <UniqueIdentifier>{664b37f7-b106-439b-b789-135124682d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0.EditorApp">
+      <UniqueIdentifier>{a772061e-1279-4365-9f9b-a8488b086384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1.EditorPanel">
+      <UniqueIdentifier>{9f403f0d-2309-4391-a17e-b0626e48ae34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. EditorManager">
+      <UniqueIdentifier>{a9e1765b-01dc-4175-a345-37e2cad18003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TESTSCENE">
+      <UniqueIdentifier>{077c78ae-21ee-4d27-b2ad-9147a7c5146a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1.EditorPanel\1_ScenePanel">
+      <UniqueIdentifier>{de52b51f-a42d-42de-ab75-c1e13c0c70cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1.EditorPanel\2_HierarchyPanel">
+      <UniqueIdentifier>{25599f51-531c-4245-a226-7afda88dfdb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1.EditorPanel\3_InspectorPanel">
+      <UniqueIdentifier>{52216b6c-9ffa-44ef-a27a-c81812256c5a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SadEditor.cpp">
+      <Filter>0.EditorApp</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialize.cpp">
+      <Filter>Serialize</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenePanel.cpp">
+      <Filter>1.EditorPanel\1_ScenePanel</Filter>
+    </ClCompile>
+    <ClCompile Include="InspectorPanel.cpp">
+      <Filter>1.EditorPanel\3_InspectorPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="HierarchyPanel.cpp">
+      <Filter>1.EditorPanel\2_HierarchyPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSceneView.cpp">
+      <Filter>TESTSCENE</Filter>
+    </ClCompile>
+    <ClCompile Include="DataTypes.cpp">
+      <Filter>Serialize</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorManager.cpp">
+      <Filter>2. EditorManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ScenePanel.h">
+      <Filter>1.EditorPanel\1_ScenePanel</Filter>
+    </ClInclude>
+    <ClInclude Include="InspectorPanel.h">
+      <Filter>1.EditorPanel\3_InspectorPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="HierarchyPanel.h">
+      <Filter>1.EditorPanel\2_HierarchyPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSceneView.h">
+      <Filter>TESTSCENE</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTypes.h">
+      <Filter>Serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialize.h">
+      <Filter>Serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorManager.h">
+      <Filter>2. EditorManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

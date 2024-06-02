@@ -1,0 +1,177 @@
+[
+    {
+        "__scene_name__": "OffsetTest"
+    },
+    {
+        "__object_name__": "MainCamera",
+        "Transform": {
+            "__component_type__": "Transform",
+            "position": {
+                "x": 0.0,
+                "y": 3.0,
+                "z": -10.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        "Camera": {
+            "__component_type__": "Camera",
+            "far_z": 1000.0,
+            "near_z": 0.009999999776482582,
+            "aspect": 1.7777777910232544,
+            "fov_y": 70.0,
+            "near_winHeight": 0.0,
+            "near_winWidth": 0.0,
+            "View Matrix": {
+                "m_11": 0.0,
+                "m_12": 0.0,
+                "m_13": 0.0,
+                "m_14": 0.0,
+                "m_21": 0.0,
+                "m_22": 0.0,
+                "m_23": 0.0,
+                "m_24": 0.0,
+                "m_31": 0.0,
+                "m_32": 0.0,
+                "m_33": 0.0,
+                "m_34": 0.0,
+                "m_41": 0.0,
+                "m_42": 0.0,
+                "m_43": 0.0,
+                "m_44": 0.0
+            },
+            "Proj Matrix": {
+                "m_11": 0.0,
+                "m_12": 0.0,
+                "m_13": 0.0,
+                "m_14": 0.0,
+                "m_21": 0.0,
+                "m_22": 0.0,
+                "m_23": 0.0,
+                "m_24": 0.0,
+                "m_31": 0.0,
+                "m_32": 0.0,
+                "m_33": 0.0,
+                "m_34": 0.0,
+                "m_41": 0.0,
+                "m_42": 0.0,
+                "m_43": 0.0,
+                "m_44": 0.0
+            }
+        },
+        "error type": "class DebugCameraMove"
+    },
+    {
+        "__object_name__": "plane",
+        "Transform": {
+            "__component_type__": "Transform",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 0.7071067690849304,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.7071067690849304
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        "Plane Collider": {
+            "__component_type__": "PlaneCollider",
+            "Position offset_x": 0.0,
+            "Position offset_y": 0.0,
+            "Position offset_z": 0.0,
+            "Rotation offset_w": 1.0,
+            "Rotation offset_x": 0.0,
+            "Rotation offset_y": 0.0,
+            "Rotation offset_z": 0.0,
+            "Scale offset_x": 1.0,
+            "Scale offset_y": 1.0,
+            "Scale offset_z": 1.0
+        }
+    },
+    {
+        "__object_name__": "offsetTest",
+        "Mesh Renderer": {
+            "__component_type__": "MeshRenderer",
+            "Mesh Path": "../3DModels/Fruit/Watermelon.fbx",
+            "Shader Path": "../FX/Default/PosNormalTex.cso",
+            "Diffuse Path": "../3DModels/Fruit/Fruit_BaseColor.png",
+            "Normal Path": "../3DModels/Fruit/Fruit_Normal.png",
+            "ambient_r": 1.0,
+            "ambient_g": 1.0,
+            "ambient_b": 1.0,
+            "ambient_a": 1.0,
+            "diffuse_r": 1.0,
+            "diffuse_g": 0.10000000149011612,
+            "diffuse_b": 0.10000000149011612,
+            "diffuse_a": 1.0,
+            "specular_r": 1.0,
+            "specular_g": 1.0,
+            "specular_b": 1.0,
+            "specular_a": 1.0,
+            "reflect_r": 1.0,
+            "reflect_g": 1.0,
+            "reflect_b": 1.0,
+            "reflect_a": 1.0,
+            "pbr_albedo_r": -431602080.0,
+            "pbr_albedo_g": -431602080.0,
+            "pbr_albedo_b": -431602080.0,
+            "pbr_albedo_a": -431602080.0,
+            "pbr_metalic": -431602080.0,
+            "pbr_roughness": -431602080.0,
+            "pbr_specular": -431602080.0,
+            "pbr_emission": -431602080.0
+        },
+        "Transform": {
+            "__component_type__": "Transform",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        "error type": "class HierarchyController",
+        "Capsule Collider": {
+            "__component_type__": "CapsuleCollider",
+            "radius": 0.5,
+            "half height": 0.5,
+            "Position offset_x": 0.0,
+            "Position offset_y": 1.0,
+            "Position offset_z": 0.0,
+            "Rotation offset_w": 0.7071067690849304,
+            "Rotation offset_x": 0.0,
+            "Rotation offset_y": 0.0,
+            "Rotation offset_z": 0.7071067690849304,
+            "Scale offset_x": 1.0,
+            "Scale offset_y": 1.0,
+            "Scale offset_z": 1.0
+        }
+    }
+]

@@ -1,0 +1,418 @@
+[
+    {
+        "__scene_name__": "InGame"
+    },
+    {
+        "__object_name__": "MainCamera",
+        "Transform": {
+            "__component_type__": "Transform",
+            "position": {
+                "x": 0.0,
+                "y": 5.0,
+                "z": 20.0
+            },
+            "rotation": {
+                "w": -4.371138828673793e-8,
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        "Camera": {
+            "__component_type__": "Camera",
+            "far_z": 1000.0,
+            "near_z": 0.009999999776482582,
+            "aspect": 1.7777777910232544,
+            "fov_y": 70.0,
+            "near_winHeight": 0.0,
+            "near_winWidth": 0.0,
+            "View Matrix": {
+                "m_11": 0.0,
+                "m_12": 0.0,
+                "m_13": 0.0,
+                "m_14": 0.0,
+                "m_21": 0.0,
+                "m_22": 0.0,
+                "m_23": 0.0,
+                "m_24": 0.0,
+                "m_31": 0.0,
+                "m_32": 0.0,
+                "m_33": 0.0,
+                "m_34": 0.0,
+                "m_41": 0.0,
+                "m_42": 0.0,
+                "m_43": 0.0,
+                "m_44": 0.0
+            },
+            "Proj Matrix": {
+                "m_11": 0.0,
+                "m_12": 0.0,
+                "m_13": 0.0,
+                "m_14": 0.0,
+                "m_21": 0.0,
+                "m_22": 0.0,
+                "m_23": 0.0,
+                "m_24": 0.0,
+                "m_31": 0.0,
+                "m_32": 0.0,
+                "m_33": 0.0,
+                "m_34": 0.0,
+                "m_41": 0.0,
+                "m_42": 0.0,
+                "m_43": 0.0,
+                "m_44": 0.0
+            }
+        }
+    },
+    {
+        "__object_name__": "playerKillInfoImageObj1",
+        "__parent_name__": "inGameCanvas",
+        "Transform": {
+            "__component_type__": "Transform",
+            "position": {
+                "x": 623.0,
+                "y": 81.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        "Sprite Renderer": {
+            "__component_type__": "SpriteRenderer",
+            "Sprite Path": "..\\UI\\InGame\\Character01.png",
+            "Width": 150.0,
+            "Height": 100.0,
+            "sort order": 10
+        }
+    },
+    {
+        "__object_name__": "playerKillInfoImageObj2",
+        "__parent_name__": "inGameCanvas",
+        "Transform": {
+            "__component_type__": "Transform",
+            "position": {
+                "x": 784.0,
+                "y": 81.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        "Sprite Renderer": {
+            "__component_type__": "SpriteRenderer",
+            "Sprite Path": "..\\UI\\InGame\\Character02.png",
+            "Width": 150.0,
+            "Height": 100.0,
+            "sort order": 10
+        }
+    },
+    {
+        "__object_name__": "playerKillInfoImageObj3",
+        "__parent_name__": "inGameCanvas",
+        "Transform": {
+            "__component_type__": "Transform",
+            "position": {
+                "x": 1137.0,
+                "y": 81.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        "Sprite Renderer": {
+            "__component_type__": "SpriteRenderer",
+            "Sprite Path": "..\\UI\\InGame\\Character03.png",
+            "Width": 150.0,
+            "Height": 100.0,
+            "sort order": 10
+        }
+    },
+    {
+        "__object_name__": "playerKillInfoImageObj4",
+        "__parent_name__": "inGameCanvas",
+        "Transform": {
+            "__component_type__": "Transform",
+            "position": {
+                "x": 1297.0,
+                "y": 81.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        "Sprite Renderer": {
+            "__component_type__": "SpriteRenderer",
+            "Sprite Path": "..\\UI\\InGame\\Character04.png",
+            "Width": 150.0,
+            "Height": 100.0,
+            "sort order": 10
+        }
+    },
+    {
+        "__object_name__": "roundTimeImageObj",
+        "__parent_name__": "inGameCanvas",
+        "Transform": {
+            "__component_type__": "Transform",
+            "position": {
+                "x": 960.0,
+                "y": 81.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        "Sprite Renderer": {
+            "__component_type__": "SpriteRenderer",
+            "Sprite Path": "..\\UI\\InGame\\Clock.png",
+            "Width": 150.0,
+            "Height": 100.0,
+            "sort order": 10
+        }
+    },
+    {
+        "__object_name__": "playerImageObj",
+        "__parent_name__": "inGameCanvas",
+        "Transform": {
+            "__component_type__": "Transform",
+            "position": {
+                "x": 109.0,
+                "y": 940.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        "Sprite Renderer": {
+            "__component_type__": "SpriteRenderer",
+            "Sprite Path": "..\\UI\\InGame\\CharacterImage.png",
+            "Width": 180.0,
+            "Height": 180.0,
+            "sort order": 10
+        }
+    },
+    {
+        "__object_name__": "playerHpImageObj",
+        "__parent_name__": "inGameCanvas",
+        "Text Box": {
+            "__component_type__": "TextBox",
+            "text": "기본 텍스트 입니다.",
+            "font size": 20.0,
+            "Color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "Width": 100.0,
+            "Height": 100.0,
+            "sort order": 1
+        },
+        "Transform": {
+            "__component_type__": "Transform",
+            "position": {
+                "x": 325.0,
+                "y": 898.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        "Sprite Renderer": {
+            "__component_type__": "SpriteRenderer",
+            "Sprite Path": "..\\UI\\InGame\\Ex.png",
+            "Width": 230.0,
+            "Height": 60.0,
+            "sort order": 20
+        }
+    },
+    {
+        "__object_name__": "playerhpBarImageObj",
+        "__parent_name__": "inGameCanvas",
+        "Transform": {
+            "__component_type__": "Transform",
+            "position": {
+                "x": 335.0,
+                "y": 984.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        "Sprite Renderer": {
+            "__component_type__": "SpriteRenderer",
+            "Sprite Path": "..\\UI\\InGame\\HealthBar.png",
+            "Width": 330.0,
+            "Height": 90.0,
+            "sort order": 10
+        }
+    },
+    {
+        "__object_name__": "bulletValImageObj",
+        "__parent_name__": "inGameCanvas",
+        "Transform": {
+            "__component_type__": "Transform",
+            "position": {
+                "x": 1653.0,
+                "y": 984.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        "Sprite Renderer": {
+            "__component_type__": "SpriteRenderer",
+            "Sprite Path": "..\\UI\\InGame\\Ammo.png",
+            "Width": 90.0,
+            "Height": 90.0,
+            "sort order": 10
+        }
+    },
+    {
+        "__object_name__": "bulletPortraitImageObj",
+        "__parent_name__": "inGameCanvas",
+        "Transform": {
+            "__component_type__": "Transform",
+            "position": {
+                "x": 1799.0,
+                "y": 940.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        "Sprite Renderer": {
+            "__component_type__": "SpriteRenderer",
+            "Sprite Path": "..\\UI\\InGame\\GunImage.png",
+            "Width": 180.0,
+            "Height": 180.0,
+            "sort order": 10
+        }
+    },
+    {
+        "__object_name__": "inGameCanvas",
+        "__child_name__": "playerKillInfoImageObj1",
+        "__child_name__": "playerKillInfoImageObj2",
+        "__child_name__": "playerKillInfoImageObj3",
+        "__child_name__": "playerKillInfoImageObj4",
+        "__child_name__": "roundTimeImageObj",
+        "__child_name__": "playerImageObj",
+        "__child_name__": "playerHpImageObj",
+        "__child_name__": "playerhpBarImageObj",
+        "__child_name__": "bulletValImageObj",
+        "__child_name__": "bulletPortraitImageObj",
+        "Transform": {
+            "__component_type__": "Transform",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    }
+]

@@ -1,0 +1,14 @@
+ISystem을 상속받은 클래스들은 모두 Engine 내부의 시스템을 담당한다.
+RenderSystem은 실제로 Renderer를 가동시키는/관리하는 역할일것이다.
+Renderer는 LowRenderAPI 클래스를 활용해 Render를 DX코드 없이 실행할 수 있으며,
+RenderSystem은 SceneGraph, RenderSort 등등 상위 기능을 맡게 될것.
+서로 RenderSystem ] Renderer ] LowRenderAPI의 순서대로 진행될 것이다.
+
+LowRender 클래스는 
+Render API / Renderer 중
+Render API, 하위 레벨의 구현을 담당한다.
+
+Renderer는 실제로 Render API를 조합해 이를 사용한다.
+
+물론, 이번 4Q 플젝에서 하지는 않겠지만, 다른 Graphic API들을 사용할 수 있도록
+확장 가능성을 열어주는 조치.

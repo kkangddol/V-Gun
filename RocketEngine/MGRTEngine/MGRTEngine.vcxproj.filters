@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{f95cb8be-82f1-4ffd-a01f-d7d9507edf5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FXFiles">
+      <UniqueIdentifier>{40882c0d-00e0-4cbc-892b-63f40793d56e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\TypedefGraphicHelper">
+      <UniqueIdentifier>{873bbd3f-9433-4b09-aef3-76a424b9d6e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{2fdfc7be-201f-4971-af91-d7b5b7b9f35a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Texture">
+      <UniqueIdentifier>{e6cf7773-dcaf-4bd4-ba35-317c0bff07e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Shader">
+      <UniqueIdentifier>{45bc60cb-a15c-4392-a823-637a6665163b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ByteBuffer">
+      <UniqueIdentifier>{42743706-0c8d-4861-8f6e-37a7730572ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo">
+      <UniqueIdentifier>{5d6f62d4-3968-4dcd-a8bc-41b0d10b433d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo\Transform">
+      <UniqueIdentifier>{82c38501-90fc-46eb-a703-69efb849b112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResourceManager">
+      <UniqueIdentifier>{46f39b8d-9001-47a8-9933-de0b55d2f674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\RenderPipeline">
+      <UniqueIdentifier>{743aaa2c-31ad-422d-916f-ef35e3def1d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\LowLevelDX11">
+      <UniqueIdentifier>{8806ddea-0f8c-472e-a766-b99cf8949a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\ShaderMaterial">
+      <UniqueIdentifier>{6b6fa104-e325-43c7-aff2-a067ed1ba215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\CameraMatrices">
+      <UniqueIdentifier>{e36ac380-64ba-4488-8a47-1c516d1a3255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{ec19fa93-ceff-4edf-9f05-835a497c6de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\AnimationHandler">
+      <UniqueIdentifier>{7f56bf75-4293-4fd4-9924-388e7438e8b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResourceManager\CustomFXInstances">
+      <UniqueIdentifier>{f25f84ca-b6b4-4cb9-bca5-42660351fb1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\RenderAnimation">
+      <UniqueIdentifier>{dee47d7e-93f2-40a6-9f3d-415422241f41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo\BaseFormation">
+      <UniqueIdentifier>{e63f82e8-cf57-4999-ac96-5c379ad28f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo\RenderUsage">
+      <UniqueIdentifier>{66b27c2e-bdf2-450d-b016-7b8c1e99b730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo\RenderUsage\RenderUsageVertexBone">
+      <UniqueIdentifier>{c338118e-9251-43fc-8a19-4438deb00268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo\BaseFormation\SkinnedMeshFormation">
+      <UniqueIdentifier>{44d9aba3-29d7-4354-af45-aecbea59f14e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo\BaseFormation\MeshFormation">
+      <UniqueIdentifier>{7811725a-828c-4d8e-a3df-a67899513199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo\BaseRenderable">
+      <UniqueIdentifier>{4690b810-56ce-47de-97c6-42d55f38db2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo\BaseRenderable\SkinnedMeshObject">
+      <UniqueIdentifier>{bb0493e2-1375-4677-a3ca-15ec0afd46a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo\BaseRenderable\MeshObject">
+      <UniqueIdentifier>{b7f9030c-64eb-44db-8021-fa2e2411b2e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo\ShaderUpdater">
+      <UniqueIdentifier>{80a895d3-19c8-4b4c-865c-cf900300fc33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo\RenderUsage\RenderUsageMesh">
+      <UniqueIdentifier>{c679d0aa-6774-4ad9-a3b6-8f998522fa13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo\RenderUsage\RenderUsageBoneInfo">
+      <UniqueIdentifier>{43869948-8a3c-478a-aedd-78fb03e0e44d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\SkinnedData">
+      <UniqueIdentifier>{60c65a86-d5d7-41b0-b880-f5ca45e728a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\SkinnedData\SkinFormation">
+      <UniqueIdentifier>{1a8ccc39-7441-4307-8395-c0a4df0b4611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\SkinnedData\SkinnedData">
+      <UniqueIdentifier>{f60d3eca-279f-4068-9343-332d5cf12be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo\BasicResources">
+      <UniqueIdentifier>{31c27644-ee49-4416-a0d0-56d1105dfa15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo\BasicResources\BasicPrimitives">
+      <UniqueIdentifier>{fb8cd234-a58c-4bb7-884d-bbab6e7f0f98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{1bddceb3-19d3-413f-85a6-d606145447eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo\BasicResources\3DModels">
+      <UniqueIdentifier>{4d31a1df-1fc0-4a09-9f1b-94336a5c1f19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo\BasicResources\3DModels\AssetDataDefine">
+      <UniqueIdentifier>{bb9be4b6-4aaf-4d26-832c-e8420b160da6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo\BasicResources\3DModels\AssetDataHelper">
+      <UniqueIdentifier>{66a89b4a-d247-413c-962c-7505ca551cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo\BasicResources\3DModels\AssetModelData">
+      <UniqueIdentifier>{8dee806b-f0bf-4ef5-bd28-6d92339aa4d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo\BasicResources\3DModels\AssetModelLoader">
+      <UniqueIdentifier>{be97682f-b8b9-4166-afc9-259a7ae6268a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo\BaseSketchable">
+      <UniqueIdentifier>{ff76386a-b591-40ca-8d2b-89bb2a7d5584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo\BasicResources\BasicLine">
+      <UniqueIdentifier>{33ebaecd-3649-43a8-a29b-a64a2bc6dc3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo\BaseSketchable\TextSketchable">
+      <UniqueIdentifier>{5260e8eb-fef9-441c-a798-0ca865055789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper\MathHelper">
+      <UniqueIdentifier>{8f44fd61-26d6-4ca3-87b7-5f064ea4ab59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper\GeometryGenerator">
+      <UniqueIdentifier>{f7a1a025-5b07-4677-a93f-e131baf1afae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo\BaseSketchable\ImageSketchable">
+      <UniqueIdentifier>{195a7ebf-156b-4614-8e12-dd17ea61d153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Cubemap">
+      <UniqueIdentifier>{8e42471c-8793-4913-a14c-f746a77d9fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IndependentEssentials">
+      <UniqueIdentifier>{1c2d4c26-9807-4eca-bdf5-de28a95dac67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IndependentEssentials\Axis">
+      <UniqueIdentifier>{34e513d9-fd6e-48f5-bd76-fd3c16795dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IndependentEssentials\Grid">
+      <UniqueIdentifier>{7e378512-95a2-4320-b71b-ea3a9074a2ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderInfo\SceneConstantsUpdater">
+      <UniqueIdentifier>{e5971923-7b0a-4d96-b22e-3e00e1307fef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FXFiles\SceneConstants">
+      <UniqueIdentifier>{7192fe8a-4357-4153-94c7-92c3e58618c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FXFiles\Individual">
+      <UniqueIdentifier>{468d474b-950a-4b03-8889-d63a5e4f434a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FXFiles\Individual\SkinnedMeshTex">
+      <UniqueIdentifier>{b8e62327-6f2a-42e6-9963-59b453fd3df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FXFiles\Individual\LightHelper">
+      <UniqueIdentifier>{2fec4464-aa94-486b-8bef-65b9459a155f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FXFiles\Individual\Cubemap">
+      <UniqueIdentifier>{80806b7d-a5ec-4b0d-8bf7-a0eb578f1948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FXFiles\Individual\BasicWireframe_Legacy">
+      <UniqueIdentifier>{b9820fd1-7f7d-48da-aa01-0a12226dad47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FXFiles\Individual\BasicTexture_Legacy">
+      <UniqueIdentifier>{a60b8edc-1e4e-4528-9573-ffee7a0d7baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FXFiles\Individual\BasicColor_Legacy">
+      <UniqueIdentifier>{8349bfed-8dd3-48e3-8e33-3bd1d87b6184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper\VertexStructHelper">
+      <UniqueIdentifier>{a26c4387-1b76-4a91-aa87-7b11a91c2d52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper\DebugHelper">
+      <UniqueIdentifier>{18f676b5-58b0-44b3-9421-b5c22dade392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FXFiles\Individual\PosNormalTex_Legacy">
+      <UniqueIdentifier>{cf2e8911-724f-4539-b14a-487f2d7ead36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FXFiles\Individual\DeferredShaders">
+      <UniqueIdentifier>{0aa6c665-1cca-46d5-8c78-220943fb206e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FXFiles\Individual\DeferredShaders\Phong">
+      <UniqueIdentifier>{e9edb3bc-1e2f-4210-a4c0-32334a98b8ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\TextureRenderTarget">
+      <UniqueIdentifier>{9359b5a7-3762-4cb9-b81a-3be121965c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FXFiles\FinalCombination">
+      <UniqueIdentifier>{d961c12b-41ca-43f6-a297-98d83ca2bbae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\ScreenBuffer">
+      <UniqueIdentifier>{84d3bab0-a5df-4350-87a5-c3c74c562913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\ScreenBuffer\ScreenBufferPhong">
+      <UniqueIdentifier>{8fbea92e-cf13-4c9e-9b31-779913ce544a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\ScreenBuffer\ScreenBufferPrecombined">
+      <UniqueIdentifier>{4cabf00a-15c5-41e2-9e48-986dae677a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FXFiles\Individual\PBR">
+      <UniqueIdentifier>{471071b9-3bc3-4268-9c97-b51432f5b37b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FXFiles\Individual\PBR\BasicPBR">
+      <UniqueIdentifier>{ea7bdb31-ad08-408d-a383-cc7ca4886d0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FXFiles\Individual\PBR\BRDF">
+      <UniqueIdentifier>{f6124321-056e-4a8a-a254-1941b87ae90b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\ScreenBuffer\ScreenBufferPBR">
+      <UniqueIdentifier>{91a30ad8-e20c-4b2d-895f-101981879472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FXFiles\Individual\PBR\BasicPBRSkinned">
+      <UniqueIdentifier>{2042135d-5b4c-4eb9-bf8e-871a79fe226d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\ScreenBuffer\ScreenBufferSkinnedPBR">
+      <UniqueIdentifier>{0fcfa1b9-a67d-4924-a430-bbcf523a1d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FXFiles\Particles">
+      <UniqueIdentifier>{39547e9d-23d6-44ab-abe0-768d740a5fe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\ParticleBase">
+      <UniqueIdentifier>{0560bb48-7696-4666-bac6-21d3e3829df0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LowLevelDX11.cpp">
+      <Filter>Rendering\LowLevelDX11</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedMeshObject.cpp">
+      <Filter>RenderInfo\BaseRenderable\SkinnedMeshObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedMeshFormation.cpp">
+      <Filter>RenderInfo\BaseFormation\SkinnedMeshFormation</Filter>
+    </ClCompile>
+    <ClCompile Include="ByteBuffer.cpp">
+      <Filter>ByteBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderMaterial.cpp">
+      <Filter>Rendering\ShaderMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Rendering\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Rendering\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexStructHelper.cpp">
+      <Filter>Helper\VertexStructHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetModelData.cpp">
+      <Filter>RenderInfo\BasicResources\3DModels\AssetModelData</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetDataHelper.cpp">
+      <Filter>RenderInfo\BasicResources\3DModels\AssetDataHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetModelLoader.cpp">
+      <Filter>RenderInfo\BasicResources\3DModels\AssetModelLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetDataDefine.cpp">
+      <Filter>RenderInfo\BasicResources\3DModels\AssetDataDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="Axis.cpp">
+      <Filter>IndependentEssentials\Axis</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>IndependentEssentials\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPipeline.cpp">
+      <Filter>Rendering\RenderPipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraMatrices.cpp">
+      <Filter>Rendering\CameraMatrices</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderUsageVertexBone.cpp">
+      <Filter>RenderInfo\RenderUsage\RenderUsageVertexBone</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationHandler.cpp">
+      <Filter>Animation\AnimationHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderAnimation.cpp">
+      <Filter>Animation\RenderAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomFXInstances.cpp">
+      <Filter>ResourceManager\CustomFXInstances</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseFormation.cpp">
+      <Filter>RenderInfo\BaseFormation</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshFormation.cpp">
+      <Filter>RenderInfo\BaseFormation\MeshFormation</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshObject.cpp">
+      <Filter>RenderInfo\BaseRenderable\MeshObject</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseRenderable.cpp">
+      <Filter>RenderInfo\BaseRenderable</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderUsageBoneInfo.cpp">
+      <Filter>RenderInfo\RenderUsage\RenderUsageBoneInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderUsageMesh.cpp">
+      <Filter>RenderInfo\RenderUsage\RenderUsageMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugHelper.cpp">
+      <Filter>Helper\DebugHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicPrimitives.cpp">
+      <Filter>RenderInfo\BasicResources\BasicPrimitives</Filter>
+    </ClCompile>
+    <ClCompile Include="TextSketchable.cpp">
+      <Filter>RenderInfo\BaseSketchable\TextSketchable</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseSketchable.cpp">
+      <Filter>RenderInfo\BaseSketchable</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicLine.cpp">
+      <Filter>RenderInfo\BasicResources\BasicLine</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelper.cpp">
+      <Filter>Helper\MathHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryGenerator.cpp">
+      <Filter>Helper\GeometryGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageSketchable.cpp">
+      <Filter>RenderInfo\BaseSketchable\ImageSketchable</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderCubeMap.cpp">
+      <Filter>Rendering\Cubemap</Filter>
+    </ClCompile>
+    <ClCompile Include="TypedefGraphicHelper.cpp">
+      <Filter>Headers\TypedefGraphicHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneConstantsUpdater.cpp">
+      <Filter>RenderInfo\SceneConstantsUpdater</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderUpdater.cpp">
+      <Filter>RenderInfo\ShaderUpdater</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenBufferPhong.cpp">
+      <Filter>Rendering\ScreenBuffer\ScreenBufferPhong</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenBuffer.cpp">
+      <Filter>Rendering\ScreenBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenBufferPrecombined.cpp">
+      <Filter>Rendering\ScreenBuffer\ScreenBufferPrecombined</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenBufferPBR.cpp">
+      <Filter>Rendering\ScreenBuffer\ScreenBufferPBR</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenBufferSkinnedPBR.cpp">
+      <Filter>Rendering\ScreenBuffer\ScreenBufferSkinnedPBR</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Define3D.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LowLevelDX11.h">
+      <Filter>Rendering\LowLevelDX11</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedMeshObject.h">
+      <Filter>RenderInfo\BaseRenderable\SkinnedMeshObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedMeshFormation.h">
+      <Filter>RenderInfo\BaseFormation\SkinnedMeshFormation</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>RenderInfo\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="ByteBuffer.hpp">
+      <Filter>ByteBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderMaterial.h">
+      <Filter>Rendering\ShaderMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Rendering\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Rendering\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="UseASSIMP.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexStructHelper.h">
+      <Filter>Helper\VertexStructHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="TypedefGraphicHelper.h">
+      <Filter>Headers\TypedefGraphicHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetDataHelper.h">
+      <Filter>RenderInfo\BasicResources\3DModels\AssetDataHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetModelData.h">
+      <Filter>RenderInfo\BasicResources\3DModels\AssetModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetDataDefine.h">
+      <Filter>RenderInfo\BasicResources\3DModels\AssetDataDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetModelLoader.h">
+      <Filter>RenderInfo\BasicResources\3DModels\AssetModelLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Axis.h">
+      <Filter>IndependentEssentials\Axis</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>IndependentEssentials\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMatrices.h">
+      <Filter>Rendering\CameraMatrices</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderUsageVertexBone.h">
+      <Filter>RenderInfo\RenderUsage\RenderUsageVertexBone</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationHandler.h">
+      <Filter>Animation\AnimationHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderAnimation.h">
+      <Filter>Animation\RenderAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderUpdater.h">
+      <Filter>RenderInfo\ShaderUpdater</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomFXInstances.h">
+      <Filter>ResourceManager\CustomFXInstances</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseFormation.h">
+      <Filter>RenderInfo\BaseFormation</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshFormation.h">
+      <Filter>RenderInfo\BaseFormation\MeshFormation</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshObject.h">
+      <Filter>RenderInfo\BaseRenderable\MeshObject</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseRenderable.h">
+      <Filter>RenderInfo\BaseRenderable</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderUsageBoneInfo.h">
+      <Filter>RenderInfo\RenderUsage\RenderUsageBoneInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderUsageMesh.h">
+      <Filter>RenderInfo\RenderUsage\RenderUsageMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugHelper.h">
+      <Filter>Helper\DebugHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicPrimitives.h">
+      <Filter>RenderInfo\BasicResources\BasicPrimitives</Filter>
+    </ClInclude>
+    <ClInclude Include="TextSketchable.h">
+      <Filter>RenderInfo\BaseSketchable\TextSketchable</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicLine.h">
+      <Filter>RenderInfo\BasicResources\BasicLine</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseSketchable.h">
+      <Filter>RenderInfo\BaseSketchable</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>Helper\MathHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryGenerator.h">
+      <Filter>Helper\GeometryGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageSketchable.h">
+      <Filter>RenderInfo\BaseSketchable\ImageSketchable</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderCubeMap.h">
+      <Filter>Rendering\Cubemap</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneConstantsUpdater.h">
+      <Filter>RenderInfo\SceneConstantsUpdater</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenBufferPhong.h">
+      <Filter>Rendering\ScreenBuffer\ScreenBufferPhong</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureRenderTarget.h">
+      <Filter>Rendering\TextureRenderTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenBuffer.h">
+      <Filter>Rendering\ScreenBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenBufferPrecombined.h">
+      <Filter>Rendering\ScreenBuffer\ScreenBufferPrecombined</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenBufferPBR.h">
+      <Filter>Rendering\ScreenBuffer\ScreenBufferPBR</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenBufferSkinnedPBR.h">
+      <Filter>Rendering\ScreenBuffer\ScreenBufferSkinnedPBR</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleBase.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Requirements.txt">
+      <Filter>Rendering</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MGRTEngine.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="rsz_mgrtlogo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="MGRT128x128.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\FX\Default\BasicTex.cso">
+      <Filter>FXFiles\Individual\BasicTexture_Legacy</Filter>
+    </None>
+    <None Include="..\FX\Default\color.cso">
+      <Filter>FXFiles\Individual\BasicColor_Legacy</Filter>
+    </None>
+    <None Include="..\FX\Default\color.fxo">
+      <Filter>FXFiles\Individual\BasicColor_Legacy</Filter>
+    </None>
+    <None Include="..\FX\Default\wire.cso">
+      <Filter>FXFiles\Individual\BasicWireframe_Legacy</Filter>
+    </None>
+    <None Include="..\FX\Default\SkinnedMeshTex.cso">
+      <Filter>FXFiles\Individual\SkinnedMeshTex</Filter>
+    </None>
+    <None Include="..\FX\Default\CubemapShader.cso">
+      <Filter>FXFiles\Individual\Cubemap</Filter>
+    </None>
+    <None Include="..\FX\Default\PosNormalTex.cso">
+      <Filter>FXFiles\Individual\PosNormalTex_Legacy</Filter>
+    </None>
+    <None Include="..\FX\Default\DeferredPhongShader.cso">
+      <Filter>FXFiles\Individual\DeferredShaders\Phong</Filter>
+    </None>
+    <None Include="..\FX\Default\BRDF.hlsli">
+      <Filter>FXFiles\Individual\PBR\BRDF</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\FX\Default\BasicTex.fx">
+      <Filter>FXFiles\Individual\BasicTexture_Legacy</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\Default\color.fx">
+      <Filter>FXFiles\Individual\BasicColor_Legacy</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\Default\CubemapShader.fx">
+      <Filter>FXFiles\Individual\Cubemap</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\Default\LightHelper.fx">
+      <Filter>FXFiles\Individual\LightHelper</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\Default\wire.fx">
+      <Filter>FXFiles\Individual\BasicWireframe_Legacy</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\Default\SkinnedMeshTex.fx">
+      <Filter>FXFiles\Individual\SkinnedMeshTex</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\SceneLoadConstants\SceneInfoStructs.fx">
+      <Filter>FXFiles\SceneConstants</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\Default\PosNormalTex.fx">
+      <Filter>FXFiles\Individual\PosNormalTex_Legacy</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\Default\DeferredPhongShader.fx">
+      <Filter>FXFiles\Individual\DeferredShaders\Phong</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\FinalCombination\FinalCombination.fx">
+      <Filter>FXFiles\FinalCombination</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\Default\BasicPBR.fx">
+      <Filter>FXFiles\Individual\PBR\BasicPBR</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\Default\BasicPBRSkinned.fx">
+      <Filter>FXFiles\Individual\PBR\BasicPBRSkinned</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\Particles\Fire.fx">
+      <Filter>FXFiles\Particles</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

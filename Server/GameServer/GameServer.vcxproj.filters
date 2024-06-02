@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{00db4bb9-27d0-4bb2-b6ec-c9abafb71834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{329e81ba-8a85-4a1b-b683-49596ab94129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol">
+      <UniqueIdentifier>{6e29f10c-0937-43ef-8196-cf14bb5740c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents">
+      <UniqueIdentifier>{28a3fd20-45df-486a-bfad-9ce295090fbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerCore">
+      <UniqueIdentifier>{304a5192-c5c7-414f-8752-608643e01388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{c6ddb210-e841-4329-9999-aae8b1b2a73d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Player">
+      <UniqueIdentifier>{68ec8a0b-e713-45ce-ac35-81ef71c91b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Lobby">
+      <UniqueIdentifier>{17e4a679-67fa-40f1-88e4-df7ba13cfe52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Random">
+      <UniqueIdentifier>{1dad13de-25bd-4728-977b-71439a9dfb0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameServer.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSession.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSessionManager.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientPacketHandler.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol.pb.cc">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Struct.pb.cc">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Enum.pb.cc">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameContents\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="VGun.cpp">
+      <Filter>GameContents\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>GameContents\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomManager.cpp">
+      <Filter>GameContents\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="Parts.cpp">
+      <Filter>GameContents\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Stats.cpp">
+      <Filter>GameContents\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Random</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>GameContents\Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSession.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSessionManager.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientPacketHandler.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.pb.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.pb.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.pb.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\Allocator.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\BufferReader.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\BufferWriter.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\Container.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\CoreGlobal.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\CoreMacro.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\CorePch.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\CoreTLS.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\DeadLockProfiler.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\IocpCore.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\IocpEvent.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\Listener.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\Lock.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\Memory.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\MemoryPool.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\NetAddress.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\ObjectPool.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\pch.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\RecvBuffer.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\RefCounting.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\SendBuffer.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\Service.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\Session.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\SocketUtils.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\ThreadManager.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\TypeCast.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\Include\ServerCore\Types.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameContents\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="VGun.h">
+      <Filter>GameContents\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>GameContents\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomManager.h">
+      <Filter>GameContents\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Parts.h">
+      <Filter>GameContents\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Stats.h">
+      <Filter>GameContents\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Random</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>GameContents\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Common\Protobuf\bin\Protocol.proto">
+      <Filter>Protocol</Filter>
+    </None>
+    <None Include="..\Common\Protobuf\bin\Struct.proto">
+      <Filter>Protocol</Filter>
+    </None>
+    <None Include="..\Common\Protobuf\bin\Enum.proto">
+      <Filter>Protocol</Filter>
+    </None>
+    <None Include="..\Common\Protobuf\bin\GenPackets.bat">
+      <Filter>Protocol</Filter>
+    </None>
+  </ItemGroup>
+</Project>

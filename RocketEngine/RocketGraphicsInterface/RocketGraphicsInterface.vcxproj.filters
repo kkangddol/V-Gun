@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{ccae7ad0-2bf9-42e2-968e-8ea03abc6708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{84147368-0370-49f3-80d7-2635104744de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IRocketGraphics.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderConstantData.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderable.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="LightData.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraData.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelData.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimData.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimDesc.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimitiveData.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ISketchable.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialData.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderType.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleType.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

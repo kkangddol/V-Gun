@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="EntryPoint">
+      <UniqueIdentifier>{3fb451f6-a165-446e-adfb-67a5d9406031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client">
+      <UniqueIdentifier>{9735de1c-aa77-47a6-b280-fef5ebee24db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneView">
+      <UniqueIdentifier>{488a04f0-75d4-4fa1-8370-7bdbfb209124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RocketAPILoader">
+      <UniqueIdentifier>{b3f7a61b-59e3-4a5b-a234-a36227eab6ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponent">
+      <UniqueIdentifier>{c3570028-8cd8-4a12-86bf-94db1f0912ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{a8c81b83-d907-4c7a-8fb2-8cc2e09c86a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\GameManager">
+      <UniqueIdentifier>{c482e9ee-37b8-4f18-9cec-b0fe3ce95aa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\NetworkManager">
+      <UniqueIdentifier>{90a9ab20-cc48-47de-9df0-6ac943c38f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\NetworkManager\ProtoBuf">
+      <UniqueIdentifier>{fb421289-40ad-400f-9326-81fd2a1cddde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\NetworkManager\Packet">
+      <UniqueIdentifier>{bccf6779-96f4-475d-a865-73c6c876a73e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\NetworkManager\Session">
+      <UniqueIdentifier>{dc15336a-ee23-4081-b77b-e17ec19dc062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneView\MainMenu">
+      <UniqueIdentifier>{c7587757-076f-4ae5-8d38-25458525f68f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneView\InGame">
+      <UniqueIdentifier>{55544b09-3442-4078-93ab-180ee6486eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponent\Player">
+      <UniqueIdentifier>{cce30a25-a703-44f2-82dc-a8773ad9efd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_TEST">
+      <UniqueIdentifier>{dd4700a3-43b6-4032-8e6c-e429b05bc377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_TEST\SceneLoadTest">
+      <UniqueIdentifier>{149e2917-a18a-44ac-b641-c45fed1c6d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_TEST\SceneLoadTest\Scene">
+      <UniqueIdentifier>{aa0693a0-cfe7-4b54-8510-4fe609141e23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_TEST\SceneLoadTest\Component">
+      <UniqueIdentifier>{b620b3b3-ef92-4a9f-8567-a118e0afedca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_TEST\HierachyTest">
+      <UniqueIdentifier>{a73bd96b-bfaa-452b-b5e9-cf383e790942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_TEST\HierachyTest\Scene">
+      <UniqueIdentifier>{287862c7-1f0d-4cfe-a71c-dd8dfbb5dd81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_TEST\HierachyTest\Component">
+      <UniqueIdentifier>{dd1becb0-f95f-4dfd-b8ac-1b135c98ef6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_TEST\PlayerMoveTest">
+      <UniqueIdentifier>{c52ae2e5-e568-4f9f-9101-ae89370f8f0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneView\GameLobby">
+      <UniqueIdentifier>{31ebe337-4a8f-4d86-98c2-4027144e49f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\LobbyManager">
+      <UniqueIdentifier>{efeb6978-1cf6-480a-a75a-56a216f67bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_TEST\PlayerMoveTest\Component">
+      <UniqueIdentifier>{e1b877ec-1090-4dee-a354-c74d00225251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_TEST\PhysXOffsetTest">
+      <UniqueIdentifier>{b3d002c4-daf4-4cd2-ae38-96798b6ea4b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_TEST\PhysXOffsetTest\Scene">
+      <UniqueIdentifier>{eac5735d-7015-4042-adb5-5450d1fffafb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponent\RandomSpawn">
+      <UniqueIdentifier>{2c4f867f-e54a-496f-acab-f72c541ba346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponent\LobbyRandomAnim">
+      <UniqueIdentifier>{f6655d58-fba6-432f-a25c-887123b60239}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>EntryPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSceneView.cpp">
+      <Filter>SceneView</Filter>
+    </ClCompile>
+    <ClCompile Include="RocketAPILoader.cpp">
+      <Filter>RocketAPILoader</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraMove.cpp">
+      <Filter>ClientComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Manager\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyManager.cpp">
+      <Filter>Manager\LobbyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkManager.cpp">
+      <Filter>Manager\NetworkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\ProtoBuf\Enum.pb.cc">
+      <Filter>Manager\NetworkManager\ProtoBuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\ProtoBuf\Protocol.pb.cc">
+      <Filter>Manager\NetworkManager\ProtoBuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\ProtoBuf\Struct.pb.cc">
+      <Filter>Manager\NetworkManager\ProtoBuf</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Manager\NetworkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerPacketHandler.cpp">
+      <Filter>Manager\NetworkManager\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerSession.cpp">
+      <Filter>Manager\NetworkManager\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuSceneView.cpp">
+      <Filter>SceneView\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameSceneView.cpp">
+      <Filter>SceneView\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGameSceneView.cpp">
+      <Filter>SceneView\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMove.cpp">
+      <Filter>ClientComponent\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="TestTransform.cpp">
+      <Filter>00_TEST\HierachyTest\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="HierarchyController.cpp">
+      <Filter>00_TEST\HierachyTest\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugCameraMove.cpp">
+      <Filter>00_TEST\HierachyTest\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="AScene.cpp">
+      <Filter>00_TEST\SceneLoadTest\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BScene.cpp">
+      <Filter>00_TEST\SceneLoadTest\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneLoadTest.cpp">
+      <Filter>00_TEST\SceneLoadTest\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="RoundEndSceneView.cpp">
+      <Filter>SceneView\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLobbySceneView.cpp">
+      <Filter>SceneView\GameLobby</Filter>
+    </ClCompile>
+    <ClCompile Include="UpgradePartsSceneView.cpp">
+      <Filter>SceneView\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInfo.cpp">
+      <Filter>ClientComponent\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMoveTest.cpp">
+      <Filter>00_TEST\PlayerMoveTest\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="OffsetTest.cpp">
+      <Filter>00_TEST\PhysXOffsetTest\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomSpawn.cpp">
+      <Filter>ClientComponent\RandomSpawn</Filter>
+    </ClCompile>
+    <ClCompile Include="PartsSystem.cpp">
+      <Filter>ClientComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="RoundResultsSceneView.cpp">
+      <Filter>SceneView\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyRandomAnim.cpp">
+      <Filter>ClientComponent\LobbyRandomAnim</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSceneView.h">
+      <Filter>SceneView</Filter>
+    </ClInclude>
+    <ClInclude Include="RocketAPILoader.h">
+      <Filter>RocketAPILoader</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMove.h">
+      <Filter>ClientComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Manager\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyManager.h">
+      <Filter>Manager\LobbyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\ProtoBuf\Enum.pb.h">
+      <Filter>Manager\NetworkManager\ProtoBuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\ProtoBuf\Protocol.pb.h">
+      <Filter>Manager\NetworkManager\ProtoBuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\ProtoBuf\Struct.pb.h">
+      <Filter>Manager\NetworkManager\ProtoBuf</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Manager\NetworkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\ProtoBuf\ServerPacketHandler.h">
+      <Filter>Manager\NetworkManager\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerSession.h">
+      <Filter>Manager\NetworkManager\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuSceneView.h">
+      <Filter>SceneView\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameSceneView.h">
+      <Filter>SceneView\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGameSceneView.h">
+      <Filter>SceneView\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMove.h">
+      <Filter>ClientComponent\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="TestTransform.h">
+      <Filter>00_TEST\HierachyTest\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="HierarchyController.h">
+      <Filter>00_TEST\HierachyTest\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugCameraMove.h">
+      <Filter>00_TEST\HierachyTest\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="AScene.h">
+      <Filter>00_TEST\SceneLoadTest\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BScene.h">
+      <Filter>00_TEST\SceneLoadTest\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneLoadTest.h">
+      <Filter>00_TEST\SceneLoadTest\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="RoundEndSceneView.h">
+      <Filter>SceneView\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLobbySceneView.h">
+      <Filter>SceneView\GameLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="UpgradePartsSceneView.h">
+      <Filter>SceneView\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInfo.h">
+      <Filter>ClientComponent\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkManager.h">
+      <Filter>Manager\NetworkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMoveTest.h">
+      <Filter>00_TEST\PlayerMoveTest\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="OffsetTest.h">
+      <Filter>00_TEST\PhysXOffsetTest\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomSpawn.h">
+      <Filter>ClientComponent\RandomSpawn</Filter>
+    </ClInclude>
+    <ClInclude Include="PartsSystem.h">
+      <Filter>ClientComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="RoundResultsSceneView.h">
+      <Filter>SceneView\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyRandomAnim.h">
+      <Filter>ClientComponent\LobbyRandomAnim</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Server\Common\Protobuf\bin\Enum.proto">
+      <Filter>Manager\NetworkManager\ProtoBuf</Filter>
+    </None>
+    <None Include="..\..\Server\Common\Protobuf\bin\Protocol.proto">
+      <Filter>Manager\NetworkManager\ProtoBuf</Filter>
+    </None>
+    <None Include="..\..\Server\Common\Protobuf\bin\Struct.proto">
+      <Filter>Manager\NetworkManager\ProtoBuf</Filter>
+    </None>
+  </ItemGroup>
+</Project>
